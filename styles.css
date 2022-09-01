@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  body{
+    background-color: rgba(95, 158, 160, 0.541);
+  }
+  
+  .calculator{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(29, 28, 28);
+  }
+  
+  table td{
+    display: inline-block;
+  }
+  .btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(31, 32, 36);
+    color: rgb(239, 239, 245);
+    font-size: 16px;
+    transition: all 50ms ease-in-out;
+  }
+  
+  
+  .btn:hover{
+    background-color: #03adadbd;
+  
+  }
+  
+  .ac{
+    background-color:#03adadfa;
+  }
+  .ac:hover{
+    background-color:#03adadbd;
+  }
+  .especial{
+    background-color:#03adadfa;
+  }
+  .especial:hover{
+    background-color: #03adadbd;
+  }
+  .igual{
+    background-color:#03adadfa;
+  }
+  .igual:hover{
+    background-color:#03adadbd;
+  }
+  
+  .result{
+    height: 100px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #03adadfa;
+    max-width: 12ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: unset;
+    
+  }
+  h4{
+    color: aliceblue;
+    font-size: 12px;
+  }
+  
+  .btn.r{
+    color: #03adadfa;
+    background-color: rgba(21, 22, 22, 0.397);
+  }
